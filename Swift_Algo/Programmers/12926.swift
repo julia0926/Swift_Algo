@@ -28,10 +28,10 @@ func solution(_ s:String, _ n:Int) -> String {
 }
 
 
-print(solution("AB", 1))
-print(solution("z", 1))
-print(solution("Z", 1))
-print(solution("a B z", 4))
+//print(solution("AB", 1))
+//print(solution("z", 1))
+//print(solution("Z", 1))
+//print(solution("a B z", 4))
 
 //참고코드
 func solution2(_ s:String, _ n:Int) -> String {
@@ -43,4 +43,4 @@ func solution2(_ s:String, _ n:Int) -> String {
     })
     
 }
-print(solution2("a B z", 4))
+//print(solution2("a B z", 4))

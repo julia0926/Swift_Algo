@@ -34,4 +34,4 @@ func solution2(_ my_string:String) -> Int {
 }
 
 //print(solution("aAb1B2cC34oOp"))
-print(solution2("aAb1B2cC34oOp"))
+//print(solution2("aAb1B2cC34oOp"))
