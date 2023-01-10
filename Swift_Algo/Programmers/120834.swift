@@ -23,4 +23,4 @@ func solution(_ age:Int) -> String {
 //    return String(age).map{alpha[Int(String($0))!]}.joined()
 //}
 
-print(solution(100))
+//print(solution(100))
