@@ -20,4 +20,4 @@ func solution(_ n:Int, _ m:Int) -> [Int] {
     return [gcd(n,m),lcm(n,m)]
 }
 
-print(solution(3, 12))
+//print(solution(3, 12))
