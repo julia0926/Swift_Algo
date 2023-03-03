@@ -20,4 +20,4 @@ func maxSubArray(_ nums: [Int]) -> Int {
     return array.max() ?? 0
 }
 
-maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
+//maxSubArray([-2,1,-3,4,-1,2,1,-5,4])
