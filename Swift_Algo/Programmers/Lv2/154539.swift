@@ -3,7 +3,7 @@
 //  Swift_Algo
 //
 //  Created by Julia on 2023/02/06.
-//
+//https://school.programmers.co.kr/learn/courses/30/lessons/154539
 
 import Foundation
 
@@ -37,7 +37,7 @@ func solution2(_ numbers:[Int]) -> [Int] {
     
     for idx in 1..<numbers.count {
         while !stack.isEmpty && stack.last!.1 < numbers[idx] { //스택의 마지막(가까우면서) 자신보다 큰 수가 있다면
-            answer[stack.last!.0] = numbers[idx] //그 스택의위치에 
+            answer[stack.last!.0] = numbers[idx] //그 스택의위치에
             stack.removeLast()
         }
         stack.append((idx, numbers[idx]))
@@ -47,4 +47,4 @@ func solution2(_ numbers:[Int]) -> [Int] {
 }
 
 
-solution2([9, 1, 5, 3, 6, 2]) //[-1, 5, 6, 6, -1, -1]
+//solution2([9, 1, 5, 3, 6, 2]) //[-1, 5, 6, 6, -1, -1]

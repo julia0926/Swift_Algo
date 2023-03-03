@@ -32,4 +32,4 @@ func solution2(_ n:Int) -> Int {
 }
 
 
-print(solution(3628800))
+//print(solution(3628800))

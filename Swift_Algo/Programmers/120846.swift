@@ -23,4 +23,4 @@ func solution(_ n:Int) -> Int {
     return result
 }
 
-print(solution(10))
+//print(solution(10))

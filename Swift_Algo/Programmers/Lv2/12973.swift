@@ -27,5 +27,5 @@ func solution(_ s:String) -> Int{
     return answer
 }
 
-print(solution("baabaa"))
-print(solution("cdcd"))
+//print(solution("baabaa"))
+//print(solution("cdcd"))

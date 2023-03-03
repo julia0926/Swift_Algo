@@ -43,4 +43,4 @@ func solution3(_ queries:[[Int]]) -> [Int] {
 
 
 
-solution([[0, 2, 0, 1], [0, 1, 0, 1]])
+//solution([[0, 2, 0, 1], [0, 1, 0, 1]])

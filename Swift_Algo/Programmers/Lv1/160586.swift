@@ -44,4 +44,4 @@ func solution(_ keymap:[String], _ targets:[String]) -> [Int] {
 //solution(["ABACD", "BCEFD"], ["ABCD", "AABB"])
 //print(solution(["AA"], ["BA"]))
 //print(solution(["AGB", "BSSS"],["AGZ", "BSSS"]))
-print(solution(["ABACD", "BCEFD"], ["XABCD", "AABB"])) //-1, 4
+//print(solution(["ABACD", "BCEFD"], ["XABCD", "AABB"])) //-1, 4

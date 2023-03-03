@@ -41,4 +41,4 @@ func mergeSort(_ array: [Int]) -> [Int] {
     return merge(mergeSort(left), mergeSort(right))
 }
 
-print(mergeSort([5,4,2,1,7]))
+//print(mergeSort([5,4,2,1,7]))

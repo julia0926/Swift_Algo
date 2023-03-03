@@ -33,6 +33,6 @@ func solution(_ s:String) -> Int {
     }
     return result
 }
-
-solution("aaabbaccccabba")
-solution("abracadabra")
+//
+//solution("aaabbaccccabba")
+//solution("abracadabra")

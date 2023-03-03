@@ -27,11 +27,11 @@ func solution(_ clothes:[[String]]) -> Int {
 //참고풀이
 func solution2(_ clothes:[[String]]) -> Int {
     let counts = Set(clothes.compactMap({ $0.last})).map ({ category in //의상종류의 중복을 제거하고
-        return clothes.filter({ $0.last! == category}).count + 1 
+        return clothes.filter({ $0.last! == category}).count + 1
     })
     print(counts)
     return 0
 }
 
-solution2([["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]])
+//solution2([["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]])
 //solution([["crow_mask", "face"], ["blue_sunglasses", "face"], ["smoky_makeup", "face"]])

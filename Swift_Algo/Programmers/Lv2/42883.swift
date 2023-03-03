@@ -3,7 +3,7 @@
 //  Swift_Algo
 //
 //  Created by Julia on 2023/02/08.
-//
+//https://school.programmers.co.kr/learn/courses/30/lessons/42883
 
 import Foundation
 
@@ -25,4 +25,4 @@ func solution(_ number:String, _ k:Int) -> String {
     }
     return stack.joined()
 }
-print(solution("4321", 1)) //432
+//print(solution("4321", 1)) //432

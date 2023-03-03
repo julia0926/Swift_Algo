@@ -20,4 +20,4 @@ func solution(_ strings:[String], _ n:Int) -> [String] {
     return result
 }
 
-print(solution(["cdx", "abce", "abcd"], 2))
+//print(solution(["cdx", "abce", "abcd"], 2))

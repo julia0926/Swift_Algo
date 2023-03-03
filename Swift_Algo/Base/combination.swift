@@ -27,4 +27,4 @@ func combination<T: Comparable>(_ array: [T], _ n: Int) -> [[T]] {
     return result
 }
 
-print(combination([1,2,3], 2))
+//print(combination([1,2,3], 2))
