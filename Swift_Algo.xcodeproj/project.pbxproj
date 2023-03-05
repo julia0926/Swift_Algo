@@ -12,7 +12,8 @@
 		6C277A912998EA840007156C /* mergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C277A902998EA840007156C /* mergeSort.swift */; };
 		6C277A932998F1F00007156C /* bubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C277A922998F1F00007156C /* bubbleSort.swift */; };
 		6C2AB40729B1DC1300F2C78C /* 131704.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AB40629B1DC1300F2C78C /* 131704.swift */; };
-		6C2AB41129B22F3400F2C78C /* 743_NetworkDelayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AB41029B22F3400F2C78C /* 743_NetworkDelayTime.swift */; };
+		6C2AB41329B2485F00F2C78C /* 787_ChepestFlightsWithinK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AB41229B2485F00F2C78C /* 787_ChepestFlightsWithinK.swift */; };
+		6C3E453D29B42CBB009E9498 /* 1245_농장관리.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3E453C29B42CBB009E9498 /* 1245_농장관리.swift */; };
 		6C5A75E9298E55690006CA38 /* 1012.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5A75E8298E55690006CA38 /* 1012.swift */; };
 		6CDE335F298FA630006816EB /* 1302.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDE335E298FA630006816EB /* 1302.swift */; };
 		6CE09D0B29923A7700B4BC20 /* 147354.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE09D0A29923A7700B4BC20 /* 147354.swift */; };
@@ -53,6 +54,8 @@
 		6C2AB40A29B2174400F2C78C /* 53_maxSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 53_maxSubarray.swift; sourceTree = "<group>"; };
 		6C2AB40E29B21C6100F2C78C /* 159993_실패.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "159993_실패.swift"; sourceTree = "<group>"; };
 		6C2AB41029B22F3400F2C78C /* 743_NetworkDelayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 743_NetworkDelayTime.swift; sourceTree = "<group>"; };
+		6C2AB41229B2485F00F2C78C /* 787_ChepestFlightsWithinK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 787_ChepestFlightsWithinK.swift; sourceTree = "<group>"; };
+		6C3E453C29B42CBB009E9498 /* 1245_농장관리.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1245_농장관리.swift"; sourceTree = "<group>"; };
 		6C41505D2980FCAB00E37549 /* 120912.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 120912.swift; sourceTree = "<group>"; };
 		6C41505F2981017300E37549 /* binu3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binu3.swift; sourceTree = "<group>"; };
 		6C4150612981092600E37549 /* binu4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binu4.swift; sourceTree = "<group>"; };
@@ -112,6 +115,7 @@
 				6C2AB40829B2153C00F2C78C /* 973_fibonacci.swift */,
 				6C2AB40A29B2174400F2C78C /* 53_maxSubarray.swift */,
 				6C2AB41029B22F3400F2C78C /* 743_NetworkDelayTime.swift */,
+				6C2AB41229B2485F00F2C78C /* 787_ChepestFlightsWithinK.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -180,6 +184,15 @@
 			path = Lv0;
 			sourceTree = "<group>";
 		};
+		6C3E453E29B444F1009E9498 /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				6C254C012990D4CB004E6C98 /* 4963.swift */,
+				6C3E453C29B42CBB009E9498 /* 1245_농장관리.swift */,
+			);
+			path = BFS;
+			sourceTree = "<group>";
+		};
 		6C41505C2980FC8300E37549 /* Test */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,11 +230,11 @@
 		6C5A75E7298E54D30006CA38 /* Backjoon */ = {
 			isa = PBXGroup;
 			children = (
+				6C3E453E29B444F1009E9498 /* BFS */,
 				6C277A8D2998E5E00007156C /* Merge */,
 				6C5A75E8298E55690006CA38 /* 1012.swift */,
 				6CDE335E298FA630006816EB /* 1302.swift */,
 				6CDE3360298FA970006816EB /* 5052_미해결.swift */,
-				6C254C012990D4CB004E6C98 /* 4963.swift */,
 				6C254C032990DFCC004E6C98 /* 6603_정확히이해못함.swift */,
 			);
 			path = Backjoon;
@@ -326,11 +339,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C5A75E9298E55690006CA38 /* 1012.swift in Sources */,
+				6C3E453D29B42CBB009E9498 /* 1245_농장관리.swift in Sources */,
 				6C277A932998F1F00007156C /* bubbleSort.swift in Sources */,
 				6C2AB40729B1DC1300F2C78C /* 131704.swift in Sources */,
 				6C277A8F2998E5E70007156C /* 11728.swift in Sources */,
 				6C061EA2299600F80082CEDA /* 200.swift in Sources */,
-				6C2AB41129B22F3400F2C78C /* 743_NetworkDelayTime.swift in Sources */,
+				6C2AB41329B2485F00F2C78C /* 787_ChepestFlightsWithinK.swift in Sources */,
 				6CE09D0B29923A7700B4BC20 /* 147354.swift in Sources */,
 				6C277A912998EA840007156C /* mergeSort.swift in Sources */,
 				6CDE335F298FA630006816EB /* 1302.swift in Sources */,

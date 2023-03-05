@@ -32,7 +32,7 @@ func boj4963() {
                 let data = queue.removeFirst()
                 let nowX = data.0
                 let nowY = data.1
-               
+            =
                 for i in 0..<8 {
                     let nx = nowX + dx[i]
                     let ny = nowY + dy[i]
